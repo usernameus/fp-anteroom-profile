@@ -1,0 +1,205 @@
+/*header*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix{
+	clear: both;
+}
+#about>.header{
+	width: 100%;
+	height:690px;
+	background-image: url(../img/banner1.png);
+	background-size: 100% 100%; 
+	text-align: center;
+}
+#about>.header>div{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: left;
+	padding-left: 100px;
+	padding-top: 300px;
+}
+#about>.header>div>span:first-child{
+	font-size: 100px;
+	color: #FFFFFF;
+	font-weight: 900;
+}
+#about>.header>div>span:last-child{
+	font-size: 100px;
+	color: #FFFFFF;
+	color: rgb(0,150,250);
+	font-weight: 900;
+}
+#about>.header>div:nth-child(2)>span:first-child{
+	font-size: 80px;
+	font-weight: 900;
+	color: #FFFFFF;
+}
+#about>.header>div:nth-child(2)>span:last-child{
+	font-size: 80px;
+	font-weight: 900;
+	color: #0596ff;
+}
+#about>.header>div:nth-child(2)+p{
+	line-height: 57px;
+	font-size: 23px;
+	color: #FFFFFF;
+}
+#about>.header>p:nth-child(4),#about>.header>p:nth-child(5){
+	font-size: 20px;
+	color: #FFFFFF;
+}
+#about>.header>img:last-child{
+	margin-top: 180px;
+}
+/*container*/
+#about>.container{
+	padding-top: 73px;
+	text-align: center;
+}
+#about>.container>p:first-child{
+	font-size: 38px;
+	margin-bottom: 28px;
+}
+#about>.container>div:nth-child(2){
+	width: 55px;
+	height: 3px;
+     background-color: #0198ff;
+     margin: 0 auto;
+     margin-bottom: 75px;
+}
+#about>.container>div:nth-child(3){
+	width: 1000px;
+	margin: 0 auto;
+}
+#about>.container>div:nth-child(3)>div:not(:last-child){
+	width: calc(100%/3);
+	float: left;
+}
+#about>.container>div:nth-child(3)>div>img{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+}
+#about>.container>div:nth-child(3)>div>img+p{
+	line-height: 58px;
+	font-size: 22px;
+	color: #636363;
+}
+#about>.container>div:nth-child(3)>div>p:nth-child(3){
+	font-size: 16px;
+	color:#636363;
+	margin-bottom: 28px;
+	padding: 0 30px;
+	line-height: 22px;
+}
+#about>.container>div:nth-child(3)>div>a:last-child{
+	padding: 10px 20px;
+	border: 1px solid #0596ff;
+	color:#0596ff;
+	border-radius: 10px;
+	text-decoration: none;
+	  line-height: 36px;
+}
+#about>.container>div:nth-child(3)>div>a:last-child:hover{
+	background-color:#0596ff;
+	color: #FFFFFF;
+}
+#about>.container>div:last-child{
+	width: 100%;
+	height: 446px;
+	background-image: url(../img/banner_about.png);
+	background-size: 100% 100%;
+	margin-top: 89px;
+}
+#about>.container>div:last-child>div{
+   padding-top: 166px;
+}
+#about>.container>div:last-child>div>span:first-child{
+	font-size: 74px;
+	font-weight: 900px;
+	color: #FFFFFF;
+}
+#about>.container>div:last-child>div>span:last-child{
+	font-size: 74px;
+	font-weight: 900;
+	color: #ffa433;
+}
+/*footer*/
+#about .footer{
+    width: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 90px;
+}
+#about .footer>p:first-child{
+    color: #999999;
+    font-size: 38px;
+    margin-bottom: 40px !important;
+    width: 1000px;
+    margin: 0 auto;
+}
+#about .footer>p:nth-child(2),#about .footer>div:nth-child(3),#about .footer>p:nth-child(4){
+	font-size: 18px;
+	line-height: 35px;
+	color:  #999999;
+	width: 1000px;
+	margin: 0 auto;
+}
+/*#about .footer>div:nth-child(3)>span,#about .footer>p:nth-child(4){
+	color: #EEEEEE;
+}*/
+#about .footer>div:nth-child(3)>span>a{
+	color:#0595ff;
+}
+#about .footer>.middle{
+	width: 700px;
+	margin: 0 auto;
+}
+#about .footer form{
+    margin:0 auto !important;
+    margin-top: 40px !important;
+}
+#about .footer form input{
+    width: 285px;
+    height: 36px;
+    margin-bottom: 51px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid gainsboro;
+    padding-left: 20px;
+}
+#about .footer form textarea{
+	width: 628px;
+	height: 75px;
+	line-height: 75px;
+	font-size: 14px;
+	border-radius: 10px;
+	text-indent: 20px;
+    border: 1px solid gainsboro;
+}
+#about .footer form input:last-child{
+    width: 25%;
+    background-color: #0496ff;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    border: none !important;
+    padding-left: 0 !important;
+}
+#about .footer>p:last-child{
+    padding: 40px;
+    color: #999999;
+    border-top: 1px solid #999999;
+    width:940px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+#about .footer div:nth-last-child(2) span{
+    color: #333333;
+    padding: 0 10px;
+}

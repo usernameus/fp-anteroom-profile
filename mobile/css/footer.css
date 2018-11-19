@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.footer{
+	background-color: #000000;
+}
+.footer>div{
+	width: 6.42rem;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer>div>p:first-child{
+	font-size: 0.3rem;
+	color: #666666;
+	padding: 0.3rem 0;
+}
+.footer>div>p:nth-child(2){
+	color: #666666;
+	font-size: 0.22rem;
+	line-height: 0.35rem;
+}
+.footer>div>div:nth-child(3)>span,.footer>div>p:nth-child(4){
+	color: #0496FF;
+	font-size: 0.22rem;
+	line-height: 0.35rem;
+}
+.footer>p:last-child{
+	font-size: 0.15rem;
+	color: #616161;
+	padding: 0.5rem 0;
+    text-align: center;
+    border-top: 1px solid #616161;
+    width: 6.48rem;
+    margin: 0 auto;
+}
+.footer>div>div:nth-child(3){
+	font-size: 0.22rem;
+	line-height: 0.3rem;
+	color: #666666;
+}
+.footer>div>form>input{
+	width: 6.48rem;
+	border-radius: 5px;
+	font-size: 0.26rem;
+    height: 0.55rem;
+    border: 1px;
+}
+.footer>div>form>textarea{
+	width: 6.48rem;
+	height: 1.15rem;
+    font-size: 0.26rem;
+	border-radius: 5px;
+    margin-top: 0.5rem;
+}
+.footer>div>form>input:last-child{
+	font-size: 0.15rem;
+    background-color: #0496ff;
+    width: 2rem;
+    height:0.4rem;
+    border: none;
+    color: #ffffff;
+    margin-bottom:1.5rem;
+}

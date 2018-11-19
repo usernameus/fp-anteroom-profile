@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix{
+	clear: both;
+}
+#about>.container{
+	position: relative;
+	top: 50px;
+}
+#about>.container>.top{
+	width: 100%;
+}
+.container>.top>img{
+	width:100%;
+}
+.container>.middle>div{
+	width: 6.48rem;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 0.69rem;
+	margin-bottom: 0.34rem;
+}
+.container>.middle>div>p:first-child{
+	font-size: 0.4rem;
+	color: #333333;
+	 text-align: center;
+	 padding-bottom: 0.54rem;
+}
+.container>.middle>div>div:nth-child(2){
+	width: 0.54rem;
+	height: 0.03rem;
+	margin: 0 auto;
+	background-color: #0496FF;
+}
+.container>.middle>div .section{
+	width: 3rem;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 0.4rem;
+}
+.container>.middle>div .section>img{
+	width: 1.4rem;
+	height: 1.4rem;
+}
+.container>.middle>div .section>p:nth-child(2){
+	font-size: 0.26rem;
+	color: #333333;
+	line-height: 0.4rem;
+}
+.container>.middle>div .section>p:last-child{
+	font-size: 0.2rem;
+	color: #666666;
+	line-height: 0.25rem;
+}
+.container>.middle>div>div:last-child>.section:first-child{
+	float: left;
+}
+.container>.middle>div>div:last-child>.section:nth-child(2){
+	float: right;
+}
+#about>.container>.bottom{
+	width: 100%;
+}
+.container>.bottom>img{
+	width:100%;
+}
+/*footer*/
+.footer{
+	background-color: #FFFFFF;
+	position: relative;
+	top: 50px;
+}
+.footer>div{
+	width: 6.42rem;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer>div>p:first-child{
+	font-size: 0.3rem;
+	color: #666666;
+	padding: 0.3rem 0;
+}
+.footer>div>p:nth-child(2){
+	color: #666666;
+	font-size: 0.22rem;
+	line-height: 0.3rem;
+}
+.footer>div>div:nth-child(3)>span,.footer>div>p:nth-child(4){
+	color: #0496FF;
+	font-size: 0.22rem;
+	line-height: 0.3rem;
+}
+.footer>p:last-child{
+	font-size: 0.15rem;
+	color: #616161;
+	padding: 0.5rem 0;
+    text-align: center;
+    border-top: 1px solid #616161;
+    width: 6.48rem;
+    margin: 0 auto;
+}
+.footer>div>div:nth-child(3){
+	font-size: 0.22rem;
+	line-height: 0.3rem;
+	color: #666666;
+}
+.footer>div>form>input{
+	width: 6.49rem;
+	border-radius: 5px;
+	font-size: 0.26rem;
+    height: 0.55rem;
+    border: 1px solid lightgray;
+}
+.footer>div>form>textarea{
+	width: 6.49rem;
+	height: 1.15rem;
+    font-size: 0.26rem;
+	border-radius: 5px;
+    margin-top: 0.5rem;
+    border: 1px solid lightgray;
+}
+.footer>div>form>input:last-child{
+	font-size: 0.15rem;
+    background-color: #0496ff;
+    width: 2rem;
+    height:0.4rem;
+    border: none;
+    color: #ffffff;
+    margin-bottom:1.5rem;
+}

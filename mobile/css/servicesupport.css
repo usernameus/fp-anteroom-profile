@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix{
+	clear: both;
+}
+#servicesupport>.header{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 50px;
+}
+#servicesupport>.container{
+	position: relative;
+	top: 50px;
+}
+#servicesupport>.header>img{
+	width: 100%;
+	height:3rem;
+}
+#servicesupport>.container>div{
+	width: 6.48rem;
+	margin: 0 auto;
+}
+#servicesupport>.container>.menu>p{
+	font-size: 0.34rem;
+	color: #333333;
+	line-height: 0.9rem;
+	border-bottom: 1px solid lightgray;
+}
+#servicesupport>.container>.menu>div{
+	height:0.9rem;
+	border-bottom: 1px solid lightgray;
+	line-height: 0.9rem;
+}
+#servicesupport>.container>.menu>div>p{
+	font-size: 0.3rem;
+}
+#servicesupport>.container>.menu>div>p:first-child{
+	float: left;
+}
+#servicesupport>.container>.menu>div>p:nth-child(2){
+	float: right;
+}
+#servicesupport>.container>.section>p{
+	font-size: 0.34rem;
+	border-bottom: 1px solid lightgray;
+	line-height: 0.9rem;
+	color: #333333;
+}
+#servicesupport>.container>.section>div{
+	border-bottom: 1px solid lightgray;
+}
+#servicesupport>.container>.section>div>p:first-child{
+	font-size: 0.26rem;
+	color: #333333;
+	line-height:0.74rem;
+}
+#servicesupport>.container>.section>div>p:last-child{
+	font-size: 0.18rem;
+	color: #666666;
+	line-height: 0.3rem;
+}

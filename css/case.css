@@ -1,0 +1,170 @@
+/*header*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix{
+	clear: both;
+}
+#case>.header{
+	width: 100%;
+	height:300px;
+	background-image:url(../img/casebanner.jpg);
+	background-size: 100% 100%; 
+	text-align: center;
+}
+#case>.header>div{
+	width: 1000px;
+	text-align: left;
+	margin: 0 auto;
+	padding-left: 100px;
+	padding-top: 170px;
+}
+#case>.header>div>p{
+	font-size: 47px;
+	color: #000000;
+}
+/*container*/
+#case .container{
+	margin: 30px auto;
+}
+#case .container>.section{
+	margin-top: 50px;
+}
+#case .container>.section>.top,#case .container>.section>.middle{
+	width: 1000px;
+	margin: 0 auto;
+}
+#case .container>.section>.bottom>div{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 117px;
+	position: relative;
+}
+#case .container>.section>.bottom>div>div{
+	width:370px;
+	height:178px;
+	background-color: #FFFFFF;
+	border-bottom: 4px solid #0396fe;
+	position: absolute;
+	right:10px;
+	top: 63px;
+	padding: 60px 60px;
+	opacity: 0.9;
+}
+#case .container>.section>.bottom>div>div>p:first-child{
+	color: #333333;
+	font-size: 32px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+#case .container>.section>.bottom>div>div>div{
+	width: 30px;
+	height: 5px;
+	background-color: #333333;
+}
+#case .container>.section>.bottom>div>div>p:nth-child(3){
+	font-size: 22px;
+	color: #333333;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+#case .container>.section>.bottom>div>div>a{
+	font-size: 12px;
+	color: #333333;
+	padding: 13px 28px;
+	border: 1px solid #333333;
+	text-decoration: none;
+}
+#case .container>.section>.bottom>div>div>a:hover{
+	background-color: #0496FF;
+	color: #FFFFFF;
+    border: none;
+}
+#case .container>.section>.middle>a:first>div:first-child{
+	width: calc(1000px/3*2)!important;
+}
+#case .container>.section>.middle>a:first-child>div:first-child>div>img{
+	width: 640px;
+}
+#case .container>.section>.middle>a:first-child>div:first-child>div>img:hover{
+	width:640px;
+	height:350px;
+}
+#case .container>.section>.middle>a:first-child>div:first-child>div{
+	width: 640px;
+	height: 248px;
+	overflow: hidden;
+}
+#case .container>.section>.middle>a:first-child>div:first-child>div:nth-child(2){
+	width: 640px !important;
+}
+#case .container .box{
+	text-align: center;
+	width: calc(1000px/3);
+	float: left;
+	height: 400px;
+}
+#case .container .box>div:nth-child(2){
+	width: 292px;
+	text-align: left;
+	margin: 0 auto;
+}
+#case .container .box>div:nth-child(2)>h2{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: #333333;
+}
+#case .container .box>div:nth-child(2)>p{
+	font-size: 18px;
+	line-height: 23px;
+	height: 55px;
+	color: #333333;
+}
+#case .container .box>div:first-child>img:hover{
+	width:292px;
+	height:350px;
+}
+#case .container .box>div:first-child{
+	width: 292px;
+	height: 248px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	transition: 1s;
+	-webkit-transition:1s;
+}
+#case .container .box>div:first-child:hover{
+	background-size: 120% 120%;
+}
+#case .container .box>div>div:last-child{
+	background-color:#000000;
+	height: 3px;	
+	width: 0;
+}
+.animate_border{
+	animation: animate_border 1s;
+	animation-fill-mode:forwards;
+}
+.animate_borderhide{
+	animation: animate_borderhide 1s;
+	animation-fill-mode:forwards;
+}
+@keyframes animate_borderhide{
+	from{
+		width:100%;
+	}
+	to{
+		width: 0;
+	}
+}
+@keyframes animate_border{
+	from{
+		width: 0;
+	}
+	to{
+		width: 100%;
+	}
+}

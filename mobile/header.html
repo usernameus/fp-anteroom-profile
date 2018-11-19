@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+				<!--可无视-->
+		<link href="css/global.css" rel="stylesheet">
+		<!--必要样式-->
+		<link type="text/css" href="css/style.css" rel="stylesheet">
+		<link href="css/component.css" rel="stylesheet" type="text/css" />
+		
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/modernizr.custom.js"></script>
+		<script type="text/javascript" src="js/jquery.dlmenu.js"></script>
+		<style type="text/css">
+			@media only screen and (min-width:725px){
+				html{
+					font-size: 100px;
+				}
+			}
+			@media only screen and (min-width:425px) and (max-width: 725px) {
+				html{
+					font-size: 85px;
+				}
+			}
+			@media only screen and (min-width:700px) and (max-width: 725px) {
+				html{
+					font-size:75px;
+				}
+			}
+			@media only screen and (min-width:650px) and (max-width:700px) {
+				html{
+					font-size:68px;
+				}
+			}
+			@media only screen and (min-width:425px) and (max-width:600px) {
+				html{
+					font-size: 63px;
+				}
+			}
+			@media only screen and (min-width:375px) and (max-width:425px) {
+				html{
+					font-size: 55px;
+				}
+			}
+			@media only screen and (min-width:320px) and (max-width:375px) {
+				html{
+					font-size: 45px;
+				}
+			}
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		</style>
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?201a88871e90e56f6caa486d80f4061c";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+	</head>
+	<body>
+		<div class="nav" style="width: 100%;background-color: #FFFFFF;">
+			<header class="header" style="background-color: #FFFFFF;height: 50px;width: 6.48rem;margin: 0 auto;">
+			<a href="#" class="logo"><img src="../img/mlogo.jpg" alt="律师专属会客室" style="width: 40px;"></a>
+			<div id="dl-menu" class="dl-menuwrapper">
+				<button id="dl-menu-button">Open Menu</button>
+				<ul class="dl-menu">
+					<li><a onclick="window.parent.location.href='product.html'">首页</a></li>
+					<li><a onclick="window.parent.location.href='case.html'">案例</a></li>
+					<li><a onclick="window.parent.location.href='servicesupport.html'">服务与支持</a></li>
+					<li><a onclick="window.parent.location.href='contact.html'">联系我们</a></li>
+					<li><a onclick="window.parent.location.href='about.html'">关于我们</a></li>
+				</ul>
+			</div>
+		</header>
+		</div>
+        <script type="text/javascript">
+		$(function(){
+			$( '#dl-menu' ).dlmenu();
+		});
+		</script>
+	</body>
+</html>

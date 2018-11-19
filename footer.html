@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			 .footer{
+			    width: 100%;
+			   /* background-color: #000000;*/
+			    text-align: center;
+			    padding-top: 90px;
+			}
+			 .footer>p:first-child{
+			    color: #999999;
+			    font-size: 38px;
+			    margin-bottom: 40px !important;
+			    width: 1000px;
+			    margin: 0 auto;
+			}
+			 .footer>p:nth-child(2), .footer>div:nth-child(3), .footer>p:nth-child(4){
+				font-size: 18px;
+				line-height: 35px;
+				color:  #999999;
+				width: 1000px;
+				margin: 0 auto;
+			}
+			 .footer>div:nth-child(3)>span>a{
+				color:#0595ff;
+			}
+			 .footer>.middle{
+				width: 700px;
+				margin: 0 auto;
+			}
+			 .footer form{
+			    margin:0 auto !important;
+			    margin-top: 40px !important;
+			}
+			 .footer form input{
+			    width: 285px;
+			    height: 36px;
+			    margin-bottom: 51px;
+			    border-radius: 8px;
+			    margin-left: 10px;
+			    margin-right: 10px;
+			    font-size: 14px;
+			    border: 1px solid gainsboro;
+			    padding-left: 20px;
+			}
+			 .footer form textarea{
+				width: 628px;
+				height: 75px;
+				line-height: 75px;
+				font-size: 14px;
+				border-radius: 10px;
+				text-indent: 20px;
+			    border: 1px solid gainsboro;
+			}
+			 .footer form input:last-child{
+			    width: 25%;
+			    background-color: #0496ff;
+			    color: #FFFFFF;
+			    font-size: 18px;
+			    margin-top: 20px;
+			    margin-bottom: 28px;
+			    border: none !important;
+			    padding-left: 0 !important;
+			}
+			 .footer>p:last-child{
+			    padding: 40px;
+			    color: #999999;
+			    border-top: 1px solid #999999;
+			    width:940px;
+			    margin-top: 20px;
+			    margin: 0 auto;
+			}
+			 .footer div:nth-last-child(2) span{
+			    color: #333333;
+			    padding: 0 10px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="footer" id="footer">
+			<p>联系我们</p>
+			<p>一封邮件或许正是一场美妙旅途的开端。</p>
+			<div>欢迎填写表格或发送邮件至：<span>邮箱：<a href="mailto:market@falvplus.com">market@falvplus.com</a></span>您也可以直接拨打咨询电话：</div>
+			<p>0531-67808207</p>
+			<div class="middle">
+				<form name="input" id="myFormId">
+			        <input type="text" name="name" id="name" placeholder="姓名">
+					<input type="text" name="company" id="company" placeholder="公司">
+					<input type="email" name="email" id="email" placeholder="工作邮箱" />
+					<input type="tel" name="phone" id="phone" placeholder="联系电话"/>
+					<textarea name="details" id="details" placeholder="你的需求或你想要了解的内容"></textarea>
+					<input type="button" value="发送" id="submitform">
+				</form>
+			</div>
+			<p>© 2016-2017 www.lj110.com all rights reserved 法仆网络科技（北京）有限公司 鲁ICP备16009726号-1</p>
+		</div>
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="js/footer.js" type="text/javascript"></script>
+	</body>
+</html>

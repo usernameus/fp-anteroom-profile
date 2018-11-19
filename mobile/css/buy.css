@@ -1,0 +1,227 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#buy>.container{
+	position: relative;
+	top: 50px;
+}
+#buy>iframe:first-child{
+	height:450px !important;
+}
+#buy>iframe{
+	height: 11.8rem !important;
+	z-index: 15000;
+}
+.clearfix{
+	clear: both;
+}
+#buy>.header{
+	width: 100%;
+	background-image:url(../img/mobile_buy_bar.jpg);
+	background-size: 100% 100%;
+	overflow: hidden;
+	position: relative;
+    top: 50px;
+}
+#buy>.header>div{
+	width: 6.49rem;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 0.5rem;
+}
+#buy>.header>div>p:first-child{
+	font-size:0.64rem;
+    font-weight: 900;
+    color: #3defff;
+    line-height: 0.8rem;
+}
+#buy>.header>div>p:nth-child(2){
+	font-size:0.64rem;
+    color: #3defff;
+}
+#buy>.header>div>p:nth-child(3){
+	font-size:0.23rem;
+    color: #FFFFFF;
+     margin-top: 0.4rem;    
+}
+#buy>.header>div>a:last-child{
+    background-color: #0496ff;
+    color: #FFFFFF;
+    font-size:0.16rem;
+    text-decoration: none;
+    padding:0.12rem 0.66rem;
+    border-radius:0.2rem;
+}
+#buy>.container>.top>div:first-child{
+	width: 100%;
+	text-align: center;
+	padding-top: 0.64rem;
+}
+#buy>.container>.top>div:first-child>p{
+	font-size: 0.4rem;
+	color: #575757;
+	padding-bottom: 0.36rem;
+	text-align: center;
+}
+#buy>.container>.top>div:first-child>div{
+	width: 0.44rem;
+	height: 0.06rem;
+	background-color: #575757;
+	margin: 0 auto;
+	margin-bottom: 0.41rem;
+}
+#buy>.container>.top>.section{
+	width: 100%;
+}
+#buy>.container>.top>.section>p{
+	font-size: 0.28rem;
+	color: #666666;
+	font-weight: 900;
+	text-align: left;
+	background-color: #EEEEEE;
+	height: 0.63rem;
+	line-height: 0.63rem;
+	text-indent: 0.2rem;
+}
+#buy>.container>.top>.section>div{
+	width:5rem;
+	margin: 0 auto;
+	text-align: left;
+}
+#buy>.container>.top>.section>div>p:first-child{
+	font-size: 0.58rem;
+	color: #333333;
+     text-align: center;
+     width: 5rem;
+     font-weight: 900;  
+     line-height: 1.16rem;  
+     border-bottom: 1px solid #AAAAAA; 
+}
+#buy>.container>.top>.section>div>p:not(:first-child){
+	color: #aaaaaa;
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+}
+#buy>.container>.top>.section>div>a{
+	font-size: 0.2rem;
+	color: #e47b7d;
+	display: block;
+	width: 1.77rem;
+	height: 0.51rem;
+	line-height: 0.51rem;
+	text-align: center;
+	border: 3px solid #E47B7D;
+	text-decoration: none;
+	margin: 0 auto;
+	font-weight: 900;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+#buy>.container>.middle{
+	height: 10.78rem;
+	background-color: #343434;
+}
+#buy>.container>.middle>div{
+	width: 6.48rem;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 0.72rem;
+}
+#buy>.container>.middle>div>p:first-child{
+	font-size: 0.48rem;
+	color: #FFFFFF;
+    padding-top: 0.7rem;
+}
+#buy>.container>.middle>div>div:nth-child(2){
+	width: 0.41rem;
+	height: 0.06rem;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 0.26rem;
+	margin-bottom: 0.48rem;
+}
+#buy>.container>.middle>div>div:nth-child(3)>div{
+	width: 6.48rem;
+	height: 1.9rem;
+}
+#buy>.container>.middle>div>div:nth-child(3)>div>div{
+	width: 5rem;
+	height: 0.66rem;
+	padding-top: 0.5rem;
+	margin: 0 auto;
+}
+#buy>.container>.middle>div>div:nth-child(3)>div>div>img{
+	width: 0.66rem;
+	height: 0.66rem;
+	float: left;
+}
+#buy>.container>.middle>div>div:nth-child(3)>div>div>p{
+	font-size: 0.3rem;
+	color: #FFFFFF;
+	width: 3.5rem;
+    text-align: left;
+	float: right;
+}
+#buy>.container>.middle>div>div:nth-child(3)>.bg_one{
+	background-color:#00a6c0;
+}
+#buy>.container>.middle>div>div:nth-child(3)>.bg_two{
+	background-color:#00afc9;
+}
+#buy>.container>.bottom{
+	width: 100%;
+	height: auto;
+}
+#buy>.container>.bottom>div{
+	width: 6.48rem;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 0.72rem;
+}
+#buy>.container>.bottom>div>p:first-child{
+	font-size: 0.4rem;
+	color: #333333;
+	margin-bottom: 0.31rem;
+}
+#buy>.container>.bottom>div>div:nth-child(2){
+	width: 0.41rem;
+	height: 0.06rem;
+	background-color: #333333;
+	margin: 0 auto;
+}
+#buy>.container>.bottom>div>div:nth-child(3){
+	width: 6.48rem;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 0.53rem;
+}
+#buy>.container>.bottom>div>div:nth-child(3)>div:not(:last-child){
+	width: 2.8rem;
+	height:4.5rem;
+}
+#buy>.container>.bottom>div>div:nth-child(3)>.left{
+	float: left;
+}
+#buy>.container>.bottom>div>div:nth-child(3)>.right{
+	float: right;
+}
+#buy>.container>.bottom>div>div:nth-child(3)>div>img{
+	width:1.4rem;
+	height: 1.4rem;
+	border-radius: 50%;
+}
+
+#buy>.container>.bottom>div>div:nth-child(3)>div>p:nth-child(2){
+	font-size: 0.28rem;
+	color: #333333;
+	line-height:0.56rem;
+}
+#buy>.container>.bottom>div>div:nth-child(3)>div>p:last-child{
+	font-size: 0.2rem;
+	color: #666666;
+	text-align: left;
+	line-height: 0.25rem;
+}

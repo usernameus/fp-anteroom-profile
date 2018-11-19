@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+				#header_pc .nav{
+				    width: 100%;
+				    height: 60px;
+				    background-color: #000000;
+				    background:rgba(0,0,0,0.1);
+				    margin-bottom: 150px;
+				    position: fixed;
+				    z-index: 1000;
+				}
+				#header_pc .nav .nav_text{
+				    width: 1000px;
+				    margin: 0 auto;
+				    list-style: none;
+				}
+				#header_pc .nav .nav_text li{
+				    float: right;
+				    line-height: 60px;
+				    cursor:pointer;
+				}
+				#header_pc .nav .nav_text li:first-child{
+				    float: left !important;
+				}
+				#header_pc .nav .nav_text li:first-child img{
+				    width: 42px;
+				    height: 30px;
+				    position: relative;
+				    top: 7px;
+				}
+				#header_pc .nav .nav_text li a{
+				    text-decoration: none;
+				    font-size: 20px;
+				    color: #FFFFFF;
+				    padding: 0 20px;
+				}
+		</style>
+	</head>
+	<body>
+		<div id="header_pc">
+			<div class="nav">
+				<ul class="nav_text">
+					<li>
+						<img src="img/product20.jpg"/>
+						<a>律师专属会客室</a>
+					</li>
+					<li>
+					    <a onclick="window.parent.location.href='contact.html'">联系我们</a>
+					</li>
+					<li>
+						<a onclick="window.parent.location.href='about.html'">关于我们</a>
+					</li>
+					<li>
+						<a onclick="window.parent.location.href='servicesupport.html'">服务与支持</a>
+					</li>
+					<li>
+						<a onclick="window.parent.location.href='buy.html'">购买</a>
+					</li>
+					<li>
+						<a onclick="window.parent.location.href='case.html'">案例</a>
+					</li>
+					<li>
+						<a onclick="window.parent.location.href='product.html'">首页</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
